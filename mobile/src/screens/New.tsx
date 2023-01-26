@@ -62,7 +62,7 @@ export function New() {
           <Feather 
             name="check"
             size={20}
-            colors={colors.white}
+            color={colors.white}
           />
 
           <Text className="font-semibold text-base text-white ml-2">
