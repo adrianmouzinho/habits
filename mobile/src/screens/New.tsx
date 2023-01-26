@@ -28,11 +28,11 @@ export function New() {
 
         <BackButton />
 
-        <Text className="mt-6 text-white font-extrabold text-3xl">
+        <Text className="mt-4 text-white font-extrabold text-3xl">
           Criar hábito
         </Text>
 
-        <Text className="mt-6 text-white font-semibold text-base">
+        <Text className="mt-6 mb-3 text-white font-semibold text-base">
           Qual seu comprometimento?
         </Text>
 
@@ -56,7 +56,7 @@ export function New() {
         ))}
 
         <TouchableOpacity
-          className="w-full h-14 flex-row items-center justify-center bg-green-600 rounded-md mt-6"
+          className="w-full h-14 flex-row items-center justify-center bg-green-600 rounded-md mt-4"
           activeOpacity={0.7}
         >
           <Feather 

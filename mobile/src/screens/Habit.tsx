@@ -26,11 +26,11 @@ export function Habit() {
       >
         <BackButton />
 
-        <Text className="mt-6 text-zinc-400 font-semibold text-base lowercase">
+        <Text className="mt-4 text-zinc-400 font-semibold text-base lowercase">
           {dayOfWeek}
         </Text>
 
-        <Text className="text-white font-extrabold text-3xl">
+        <Text className="mt-2 text-white font-extrabold text-3xl">
           {dayAndMonth}
         </Text>
 
